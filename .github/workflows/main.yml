@@ -28,7 +28,7 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
       - name: java version
-        run: java version
+        run: java -version
       - name: maven --version
         run: mvn --version
       - name: python version
